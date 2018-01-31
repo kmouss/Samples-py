@@ -11,29 +11,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="randomWalk.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="randomWalk.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/randomWalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
+            <state relative-caret-position="122">
+              <caret line="203" column="15" lean-forward="true" selection-start-line="203" selection-start-column="15" selection-end-line="203" selection-end-column="15" />
               <folding>
-                <element signature="e#639#1195#0" expanded="false" />
-                <element signature="e#673#736#0" expanded="false" />
-                <element signature="e#1222#1913#0" expanded="false" />
-                <element signature="e#1940#2138#0" expanded="false" />
-                <element signature="e#2169#2285#0" expanded="false" />
-                <element signature="e#2320#2475#0" expanded="false" />
-                <element signature="e#2507#2831#0" expanded="false" />
-                <element signature="e#2884#3373#0" expanded="false" />
-                <element signature="e#3426#3934#0" expanded="false" />
-                <element signature="e#4064#4139#0" expanded="false" />
-                <element signature="e#4451#4735#0" expanded="false" />
-                <element signature="e#4791#5069#0" expanded="false" />
-                <element signature="e#5123#5653#0" expanded="false" />
-                <element signature="e#6032#6260#0" expanded="false" />
-                <element signature="e#6313#7251#0" expanded="false" />
-                <element signature="e#7350#8059#0" expanded="false" />
-                <element signature="e#8136#8884#0" expanded="false" />
+                <element signature="e#639#1325#0" expanded="false" />
+                <element signature="e#2091#2289#0" expanded="false" />
+                <element signature="e#2320#2511#0" expanded="false" />
+                <element signature="e#2546#2767#0" expanded="false" />
+                <element signature="e#2799#3123#0" expanded="false" />
+                <element signature="e#3176#3665#0" expanded="false" />
+                <element signature="e#5083#5361#0" expanded="false" />
+                <element signature="e#5415#5945#0" expanded="false" />
+                <element signature="e#6605#7543#0" expanded="false" />
+                <element signature="e#7642#8351#0" expanded="false" />
+                <element signature="e#8428#9176#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -49,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiabetesPrediction" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiabetesPrediction" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiabetesPrediction">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-85">
               <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
@@ -64,9 +58,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/randomWalk.py" />
         <option value="$PROJECT_DIR$/testplot.py" />
         <option value="$PROJECT_DIR$/DiabetesPrediction" />
+        <option value="$PROJECT_DIR$/randomWalk.py" />
       </list>
     </option>
   </component>
@@ -131,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DiabetesPrediction">
+  <component name="RunManager" selected="Python.randomWalk">
     <configuration name="DiabetesPrediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,9 +184,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.DiabetesPrediction" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testplot" />
-        <item index="2" class="java.lang.String" itemvalue="Python.randomWalk" />
+        <item index="0" class="java.lang.String" itemvalue="Python.randomWalk" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DiabetesPrediction" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testplot" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +210,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -241,36 +235,12 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/randomWalk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-          <folding>
-            <element signature="e#639#1195#0" expanded="false" />
-            <element signature="e#673#736#0" expanded="false" />
-            <element signature="e#1222#1913#0" expanded="false" />
-            <element signature="e#1940#2138#0" expanded="false" />
-            <element signature="e#2169#2285#0" expanded="false" />
-            <element signature="e#2320#2475#0" expanded="false" />
-            <element signature="e#2507#2831#0" expanded="false" />
-            <element signature="e#2884#3373#0" expanded="false" />
-            <element signature="e#3426#3934#0" expanded="false" />
-            <element signature="e#4064#4139#0" expanded="false" />
-            <element signature="e#4451#4735#0" expanded="false" />
-            <element signature="e#4791#5069#0" expanded="false" />
-            <element signature="e#5123#5653#0" expanded="false" />
-            <element signature="e#6032#6260#0" expanded="false" />
-            <element signature="e#6313#7251#0" expanded="false" />
-            <element signature="e#7350#8059#0" expanded="false" />
-            <element signature="e#8136#8884#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -281,9 +251,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DiabetesPrediction">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-85">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomWalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="203" column="15" lean-forward="true" selection-start-line="203" selection-start-column="15" selection-end-line="203" selection-end-column="15" />
+          <folding>
+            <element signature="e#639#1325#0" expanded="false" />
+            <element signature="e#2091#2289#0" expanded="false" />
+            <element signature="e#2320#2511#0" expanded="false" />
+            <element signature="e#2546#2767#0" expanded="false" />
+            <element signature="e#2799#3123#0" expanded="false" />
+            <element signature="e#3176#3665#0" expanded="false" />
+            <element signature="e#5083#5361#0" expanded="false" />
+            <element signature="e#5415#5945#0" expanded="false" />
+            <element signature="e#6605#7543#0" expanded="false" />
+            <element signature="e#7642#8351#0" expanded="false" />
+            <element signature="e#8428#9176#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

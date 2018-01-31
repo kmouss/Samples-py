@@ -1,32 +1,28 @@
 import random, pylab
 
 #set line width
-pylab.rcParams['lines.linewidth'] = 4
+pylab.rcParams['lines.linewidth'] = 6
 #set font size for titles 
-pylab.rcParams['axes.titlesize'] = 20
+pylab.rcParams['axes.titlesize'] = 22
 #set font size for labels on axes
-pylab.rcParams['axes.labelsize'] = 20
+pylab.rcParams['axes.labelsize'] = 22
 #set size of numbers on x-axis
-pylab.rcParams['xtick.labelsize'] = 16
+pylab.rcParams['xtick.labelsize'] = 18
 #set size of numbers on y-axis
-pylab.rcParams['ytick.labelsize'] = 16
+pylab.rcParams['ytick.labelsize'] = 18
 #set size of ticks on x-axis
-pylab.rcParams['xtick.major.size'] = 7
+pylab.rcParams['xtick.major.size'] = 9
 #set size of ticks on y-axis
-pylab.rcParams['ytick.major.size'] = 7
+pylab.rcParams['ytick.major.size'] = 9
 #set size of markers, e.g., circles representing points
 #set numpoints for legend
-pylab.rcParams['legend.numpoints'] = 1
+pylab.rcParams['legend.numpoints'] = 3
 
 class Location(object):
     def __init__(self, x, y):
-        """x and y are numbers"""
+        ## x and y are number coordinates for the location
         self.x = x
         self.y = y
-
-    def move(self, deltaX, deltaY):
-        """deltaX and deltaY are numbers"""
-        return Location(self.x + deltaX, self.y + deltaY)
 
     def getX(self):
         return self.x
@@ -34,7 +30,12 @@ class Location(object):
     def getY(self):
         return self.y
 
+    def move(self, deltaX, deltaY):
+        ## deltaX and deltaY numbers by which to move the current location
+        return Location(self.x + deltaX, self.y + deltaY)
+
     def distFrom(self, other):
+        ## Calculate distance between current location and other location
         xDist = self.x - other.getX()
         yDist = self.y - other.getY()
         return (xDist**2 + yDist**2)**0.5
@@ -65,6 +66,7 @@ class Field(object):
             raise ValueError('Drunk not in field')
         return self.drunks[drunk]
 
+## Drunks base class
 class Drunk(object):
     def __init__(self, name = None):
         """Assumes name is a str"""
@@ -76,12 +78,14 @@ class Drunk(object):
         return 'Anonymous'
 
 class UsualDrunk(Drunk):
+    ## This drun only moves 1 unit horizontally or vertically at each step
     def takeStep(self):
         stepChoices = [(0,1), (0,-1), (1, 0), (-1, 0)]
         return random.choice(stepChoices)
 
 class MasochistDrunk(Drunk):
     def takeStep(self):
+        # this drunk moves slightly differently than unsual drunk
         stepChoices = [(0.0,1.1), (0.0,-0.9),
                        (1.0, 0.0), (-1.0, 0.0)]
         return random.choice(stepChoices)
